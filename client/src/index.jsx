@@ -5,6 +5,7 @@ import ProjectList from './components/projectList.jsx';
 import Navbar from './components/navbar.jsx';
 import AddProject from './components/addProject.jsx'
 
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -40,7 +41,10 @@ class App extends React.Component {
         <div className="row">
           <Sidebar />
           <div>
+<<<<<<< HEAD
             <AddProject/>
+=======
+>>>>>>> bcc4af3917b851fcddd8a2a8f4e3f1d2d3a8517b
             <ProjectList projects={this.state.projects}/>
           </div>
         </div>
